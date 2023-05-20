@@ -1,16 +1,3 @@
-/**
-* Template Name: Impact
-* Updated: Mar 10 2023 with Bootstrap v5.2.3
-* Template URL: https://bootstrapmade.com/impact-bootstrap-business-website-template/
-* Author: BootstrapMade.com
-* License: https://bootstrapmade.com/license/
-*/
-
-/*--------------------------------------------------------------
-# Set main reusable colors and fonts using CSS variables
-# Learn more about CSS variables at https://developer.mozilla.org/en-US/docs/Web/CSS/Using_CSS_custom_properties
---------------------------------------------------------------*/
-/* Fonts */
 :root {
   --font-default: "Open Sans", system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", "Liberation Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
   --font-primary: "Montserrat", sans-serif;
@@ -20,7 +7,7 @@
 /* Colors */
 :root {
   --color-default: #222222;
-  --color-primary: #008374;
+  --color-primary: #020e24;
   --color-secondary: #f85a40;
 }
 
@@ -28,10 +15,6 @@
 :root {
   scroll-behavior: smooth;
 }
-
-/*--------------------------------------------------------------
-# General
---------------------------------------------------------------*/
 body {
   font-family: var(--font-default);
   color: var(--color-default);
@@ -56,9 +39,6 @@ h6 {
   font-family: var(--font-primary);
 }
 
-/*--------------------------------------------------------------
-# Sections & Section Header
---------------------------------------------------------------*/
 section {
   padding: 60px 0;
   overflow: hidden;
@@ -96,12 +76,9 @@ section {
 
 .section-header p {
   margin-bottom: 0;
-  color: #6f6f6f;
+  color: #373636;
 }
 
-/*--------------------------------------------------------------
-# Breadcrumbs
---------------------------------------------------------------*/
 .breadcrumbs .page-header {
   padding: 60px 0 60px 0;
   min-height: 20vh;
@@ -156,9 +133,6 @@ section {
   content: "/";
 }
 
-/*--------------------------------------------------------------
-# Scroll top button
---------------------------------------------------------------*/
 .scroll-top {
   position: fixed;
   visibility: hidden;
@@ -190,9 +164,6 @@ section {
   bottom: 15px;
 }
 
-/*--------------------------------------------------------------
-# Preloader
---------------------------------------------------------------*/
 #preloader {
   position: fixed;
   inset: 0;
@@ -238,7 +209,7 @@ section {
 # Header
 --------------------------------------------------------------*/
 .topbar {
-  background: #00796b;
+  background: #020e24;
   height: 40px;
   font-size: 14px;
   transition: all 0.5s;
@@ -428,7 +399,7 @@ section {
     font-size: 15px;
     text-transform: none;
     font-weight: 600;
-    color: #006a5d;
+    color: #020e24;
   }
 
   .navbar .dropdown ul a i {
@@ -499,7 +470,7 @@ section {
     inset: 0;
     padding: 50px 0 10px 0;
     margin: 0;
-    background: rgba(0, 131, 116, 0.9);
+    background: #020e24;
     overflow-y: auto;
     transition: 0.3s;
     z-index: 9998;
@@ -545,7 +516,7 @@ section {
   .navbar .getstarted:hover,
   .navbar .getstarted:focus:hover {
     color: #fff;
-    background: rgba(0, 131, 116, 0.8);
+    background: #020e24;
   }
 
   .navbar .dropdown ul,
@@ -555,8 +526,8 @@ section {
     padding: 10px 0;
     margin: 10px 20px;
     transition: all 0.5s ease-in-out;
-    background-color: #007466;
-    border: 1px solid #006459;
+    background-color: #020e24;
+    border: 1px solid #feffff;
   }
 
   .navbar .dropdown>.dropdown-active,
@@ -954,8 +925,10 @@ section {
   color: var(--color-default);
   font-size: 56px;
   transition: ease-in-out 0.3s;
-  z-index: 2;
   position: relative;
+  z-index:2;
+  left: 16px;
+  top:-8px;
 }
 
 .services .service-item .icon:before {
@@ -1003,27 +976,24 @@ section {
   border-color: var(--color-primary);
 }
 
-/*--------------------------------------------------------------
-# Testimonials Section
---------------------------------------------------------------*/
+
 .testimonials .testimonial-wrap {
   padding-left: 10px;
 }
 
 .testimonials .testimonial-item {
   box-sizing: content-box;
-  padding: 30px;
-  margin: 30px 10px;
+  padding: 10px;
   box-shadow: 0px 0 15px rgba(0, 0, 0, 0.1);
   position: relative;
-  background: #fff;
-  border-radius: 10px;
+  background: #71666636;
+  border-radius: 0px 10px 0px 10px;
 }
 
 .testimonials .testimonial-item .testimonial-img {
-  width: 90px;
-  border-radius: 50px;
-  margin-right: 15px;
+  width: 100%;
+  height: 400px;
+  border-radius: 10px;
 }
 
 .testimonials .testimonial-item h3 {
@@ -1337,7 +1307,7 @@ section {
 
 .portfolio-details .portfolio-description .testimonial-item .quote-icon-left,
 .portfolio-details .portfolio-description .testimonial-item .quote-icon-right {
-  color: #009d8b;
+  color: #020e24;
   font-size: 26px;
   line-height: 0;
 }
@@ -1720,11 +1690,11 @@ section {
 
 .contact .info-item {
   width: 100%;
-  background-color: #009282;
+  background-color: #ffffff;
   margin-bottom: 20px;
   padding: 20px;
   border-radius: 10px;
-  color: #fff;
+  color: #000000;
 }
 
 .contact .info-item:last-child {
@@ -1733,11 +1703,11 @@ section {
 
 .contact .info-item i {
   font-size: 20px;
-  color: #fff;
+  color: #000000;
   float: left;
   width: 44px;
   height: 44px;
-  background-color: rgba(255, 255, 255, 0.2);
+  background-color: hsla(0, 3%, 23%, 0.212);
   display: flex;
   justify-content: center;
   align-items: center;
@@ -1760,8 +1730,9 @@ section {
 }
 
 .contact .info-item:hover i {
-  background: #fff;
+  background: #ffffff;
   color: var(--color-primary);
+  
 }
 
 .contact .php-email-form {
@@ -1771,6 +1742,7 @@ section {
   box-shadow: 0px 2px 25px rgba(0, 0, 0, 0.1);
   padding: 30px;
   border-radius: 0 10px 10px 0;
+  
 }
 
 .contact .php-email-form .form-group {
@@ -1793,7 +1765,7 @@ section {
 .contact .php-email-form .sent-message {
   display: none;
   color: #fff;
-  background: #059652;
+  background: #020e24;
   text-align: center;
   padding: 15px;
   font-weight: 600;
@@ -1813,7 +1785,7 @@ section {
   width: 24px;
   height: 24px;
   margin: 0 10px -6px 0;
-  border: 3px solid #059652;
+  border: 3px solid #020e24;
   border-top-color: #fff;
   animation: animate-loading 1s linear infinite;
 }
@@ -1851,7 +1823,7 @@ section {
 }
 
 .contact .php-email-form button[type=submit]:hover {
-  background: rgba(0, 131, 116, 0.8);
+  background: #020e24;
 }
 
 @keyframes animate-loading {
@@ -1973,7 +1945,7 @@ section {
   padding: 60px 30px;
   position: relative;
   overflow: hidden;
-  background: #008d7d;
+  background: #020e24;
   box-shadow: 0 0 29px 0 rgba(0, 0, 0, 0.08);
   transition: all 0.3s ease-in-out;
   border-radius: 8px;
@@ -2005,7 +1977,7 @@ section {
 }
 
 .hero .icon-box:hover {
-  background: #009786;
+  background: #020e24;
 }
 
 .hero .icon-box:hover .title a,
@@ -2356,7 +2328,7 @@ section {
 }
 
 .blog .sidebar .search-form form button:hover {
-  background: rgba(0, 131, 116, 0.8);
+  background: #020e24;
 }
 
 .blog .sidebar .categories ul {
@@ -2534,7 +2506,7 @@ section {
 
 .blog .comments .reply-form input:focus {
   box-shadow: none;
-  border-color: rgba(0, 131, 116, 0.8);
+  border-color: #020e24;
 }
 
 .blog .comments .reply-form textarea {
@@ -2545,7 +2517,7 @@ section {
 
 .blog .comments .reply-form textarea:focus {
   box-shadow: none;
-  border-color: rgba(0, 131, 116, 0.8);
+  border-color:#020e24;
 }
 
 .blog .comments .reply-form .form-group {
@@ -2634,7 +2606,7 @@ section {
 
 .footer .footer-links ul i {
   padding-right: 2px;
-  color: rgba(0, 131, 116, 0.8);
+  color: #020e24;
   font-size: 12px;
   line-height: 0;
 }
