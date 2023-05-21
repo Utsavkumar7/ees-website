@@ -149,9 +149,9 @@ document.addEventListener('DOMContentLoaded', () => {
   new PureCounter();
 
   /**
-   * Clients Slider
+   * recruiters Slider
    */
-  new Swiper('.clients-slider', {
+  new Swiper('.recruiters-slider', {
     speed: 400,
     loop: true,
     autoplay: {
