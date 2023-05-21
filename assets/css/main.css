@@ -235,6 +235,10 @@ section {
   .topbar .contact-info i span {
     font-size: 13px;
   }
+
+  .header h1 {
+    font-size: 18px;
+  }
 }
 
 .topbar .contact-info i a {
@@ -1710,11 +1714,13 @@ section {
   overflow: hidden;
 }
 
+
 @media (min-width: 1365px) {
   .home {
     background-attachment: fixed;
   }
 }
+
 
 .home h2 {
   font-size: 48px;
@@ -1722,7 +1728,6 @@ section {
   margin-bottom: 10px;
   margin-top: 10px;
   color: #fff;
-  margin-left: 80px;
 }
 
 .home p {
@@ -1795,6 +1800,7 @@ section {
     height: calc(50% + 20px);
     background-color: #fff;
   }
+
 }
 
 .home .icon-box {
@@ -2439,8 +2445,8 @@ section {
 }
 
 .footer .social-links a:hover {
-  color: #fff;
-  border-color: #fff;
+  color: #f85a40;
+  border-color: #f85a40;
 }
 
 .footer h4 {
